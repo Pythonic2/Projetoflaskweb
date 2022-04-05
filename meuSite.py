@@ -16,7 +16,7 @@ def post():
     return render_template('post.html')
 
 # @app.route('/post2')
-#def post2():
+# def post2():
 #    return render_template('post2.html')
 
 @app.errorhandler(404)

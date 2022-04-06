@@ -15,9 +15,9 @@ def index():
 def post():
     return render_template('post.html')
 
-# @app.route('/post2')
-# def post2():
-#    return render_template('post2.html')
+@app.route('/ranking8profissoesquemaispagamnati')
+def post2():
+   return render_template('post2.html')
 
 @app.errorhandler(404)
 def page_not_found(error):

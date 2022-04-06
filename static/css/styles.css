@@ -239,6 +239,9 @@ a {
   color: #212529;
   text-decoration: none;
 }
+.links{
+    text-decoration: underline;
+}
 a:hover {
   color: #0085A1;
 }
